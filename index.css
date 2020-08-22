@@ -1,0 +1,101 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-link {
+  font-size: 25px;
+  font-weight: bolder;
+  margin-right: 30px;
+  font-family: "Courgette";
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: #ffb200 !important;
+}
+.webTitle {
+  font-family: "Lobster Two";
+  font-size: 55px;
+  margin-top: 70px;
+  color: #221f3b;
+}
+.tagLine {
+  font-family: Pacifico;
+  font-size: 20px;
+  text-align: justify;
+}
+.CakeCard {
+  min-width: 20rem !important;
+  min-height: 5rem !important;
+}
+body {
+  /* background-image: url("/images/abstract-yellow-brush-stroke-white-background_23-2147835995.jpg"); */
+  /* background-size: cover; */
+}
+.galarySection {
+  background: linear-gradient(
+    90deg,
+    rgba(6, 212, 137, 1) 0%,
+    rgba(25, 121, 9, 1) 0%,
+    rgba(243, 244, 244, 1) 0%,
+    rgba(249, 251, 251, 1) 87%
+  );
+  padding-top: 20px;
+}
+
+.orderNowSection {
+  background-color: #005051;
+  padding: 20px;
+  color: white;
+  font-family: "Courgette";
+  /* 
+  background-image: linear-gradient(
+    to right top,
+    #f4e4ea,
+    #f9b9cc,
+    #fb8da4,
+    #f75c75,
+    #eb1241
+  ); */
+
+  background: #fbfaf3;
+  background: -webkit-radial-gradient(top left, #fbfaf3, #d6cbcd);
+  background: -moz-radial-gradient(top left, #fbfaf3, #d6cbcd);
+  background: radial-gradient(to bottom right, #fbfaf3, #d6cbcd);
+
+  height: 90vh;
+}
+
+.rounded-lg {
+  border-radius: 1rem !important;
+}
+
+.text-small {
+  font-size: 0.9rem !important;
+}
+
+.custom-separator {
+  width: 5rem;
+  height: 6px;
+  border-radius: 1rem;
+}
+
+.text-uppercase {
+  letter-spacing: 0.2em;
+}
+
+.orderCard {
+  color: #514b64;
+  text-align: center !important;
+}
+
+.contactCard {
+  margin: 5px;
+}
+
+.callUsText {
+  font-family: Pacifico;
+  font-size: 25px;
+  color: #2d4059 !important;
+  padding: 15px;
+}
