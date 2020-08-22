@@ -48,15 +48,6 @@ body {
   padding: 20px;
   color: white;
   font-family: "Courgette";
-  /* 
-  background-image: linear-gradient(
-    to right top,
-    #f4e4ea,
-    #f9b9cc,
-    #fb8da4,
-    #f75c75,
-    #eb1241
-  ); */
 
   background: #fbfaf3;
   background: -webkit-radial-gradient(top left, #fbfaf3, #d6cbcd);
@@ -94,8 +85,10 @@ body {
 }
 
 .callUsText {
-  font-family: Pacifico;
+  font-family: Courgette;
   font-size: 25px;
-  color: #2d4059 !important;
   padding: 15px;
+  color: white;
+  align-content: center;
+  font-weight: lighter;
 }
