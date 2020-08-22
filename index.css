@@ -57,6 +57,16 @@ body {
   height: 90vh;
 }
 
+.bannerSection {
+  background: linear-gradient(
+    90deg,
+    rgba(6, 212, 137, 1) 0%,
+    rgba(25, 121, 9, 1) 0%,
+    rgba(243, 244, 244, 1) 0%,
+    rgba(249, 251, 251, 1) 87%
+  );
+}
+
 .rounded-lg {
   border-radius: 1rem !important;
 }
@@ -76,7 +86,7 @@ body {
 }
 
 .orderCard {
-  color: #514b64;
+  color: #86838f;
   text-align: center !important;
 }
 
